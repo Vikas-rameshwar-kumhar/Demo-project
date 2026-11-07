@@ -14,7 +14,7 @@ export function Header() {
           <Link href="/test#story" className="text-sm text-[#526055] transition-colors hover:text-[#d7653d]">Our story</Link>
           <Link href="/test#visit" className="text-sm text-[#526055] transition-colors hover:text-[#d7653d]">Find us</Link>
         </nav>
-        <Link href="/test#visit" className="rounded-full border border-[#aeb3a5] px-4 py-3 transition-colors hover:bg-[#24372e] hover:text-white">
+        <Link href="/test" className="rounded-full border border-[#aeb3a5] px-4 py-3 transition-colors hover:bg-[#24372e] hover:text-white">
           <Typography as="span" variant="caption" className="normal-case tracking-normal">Come on in ↗</Typography>
         </Link>
       </div>

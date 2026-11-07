@@ -20,7 +20,7 @@ export function PortfolioHero() {
 
         <div className="relative z-10 flex flex-wrap items-start justify-between gap-6 md:flex-nowrap md:items-end">
           <p className="m-0 max-w-sm text-sm leading-relaxed text-[#6c7469] sm:text-base">
-            I’m Alex — an independent designer &amp; developer partnering with good people to build thoughtful brands and digital things.
+            I’m Vikas — an full stack developer partnering with good people to build thoughtful brands and digital things.
           </p>
           <a
             href="#work"

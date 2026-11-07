@@ -30,7 +30,7 @@ export function ContactSection() {
         </a>
         <div
           aria-hidden="true"
-          className="pointer-events-none absolute -right-6 top-1/4 select-none text-8xl leading-none text-[#345345] sm:right-6 md:text-9xl"
+          className="pointer-events-none absolute right-0 top-1/4 translate-x-6 select-none text-8xl leading-none text-[#345345] sm:right-6 sm:translate-x-0 md:text-9xl"
         >
           ✳
         </div>

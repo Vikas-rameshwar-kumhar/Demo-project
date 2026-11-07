@@ -9,6 +9,11 @@ npm install
 npm run dev
 ```
 
+```bash
+pnpm install
+pnpm dev
+```
+
 Open [http://localhost:3000](http://localhost:3000) to view the site.
 
 ## Personalize it

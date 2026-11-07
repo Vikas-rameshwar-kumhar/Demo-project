@@ -1,7 +1,7 @@
 const services = [
-  { number: "01", title: "Brand & Strategy", description: "Positioning, identity, art direction", symbol: "✳" },
-  { number: "02", title: "Digital Experiences", description: "Websites, e-commerce, product design", symbol: "↗" },
-  { number: "03", title: "Creative Development", description: "Front-end, interactions, design systems", symbol: "✳" },
+  { number: "01", title: "Frontend Development", description: "React, Next.js, responsive interfaces", symbol: "✳" },
+  { number: "02", title: "Full Stack Web Apps", description: "TypeScript, APIs, end-to-end features", symbol: "↗" },
+  { number: "03", title: "Python, AI & Automation", description: "Helpful tools, smart workflows, experiments", symbol: "✳" },
 ];
 
 export function ServicesSection() {
@@ -14,15 +14,15 @@ export function ServicesSection() {
         <div className="mb-10 flex flex-col items-start gap-4 md:flex-row md:items-end md:justify-between md:gap-0">
           <div>
             <span className="font-mono text-xs tracking-wider text-[#7d8476]">
-              HOW I CAN HELP
+              WHAT I LIKE TO BUILD
             </span>
             <h2 className="mt-3 text-3xl font-medium tracking-tight sm:text-4xl md:text-5xl">
-              Small team energy.<br />
-              <span className="font-serif italic text-[#7c8a70]">Thoughtful by design.</span>
+              Useful ideas.<br />
+              <span className="font-serif italic text-[#7c8a70]">Thoughtful execution.</span>
             </h2>
           </div>
           <p className="m-0 max-w-xs text-sm leading-relaxed text-[#7a8075] md:ml-6 md:mb-1">
-            From the first “what if?” to the final little detail, I help bring good ideas to life.
+            From polished interfaces to backend features and small AI experiments, I enjoy making software feel clear and useful.
           </p>
         </div>
 

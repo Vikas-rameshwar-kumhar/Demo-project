@@ -12,14 +12,14 @@ export function SelectedWork() {
         <div className="mb-8 flex flex-col items-start gap-4 md:flex-row md:items-end md:justify-between md:gap-0">
           <div>
             <span className="font-mono text-xs tracking-wider text-[#7d8476]">
-              A FEW GOOD THINGS
+              EXPERIMENTS &amp; PROJECTS
             </span>
             <h2 className="mt-3 text-4xl font-medium tracking-tight sm:text-5xl md:text-6xl">
               Selected work<span className="text-[#ea6d48]">.</span>
             </h2>
           </div>
           <p className="m-0 max-w-xs text-sm leading-relaxed text-[#7a8075] md:ml-6 md:mb-1">
-            A small selection of projects made with care, curiosity, and lovely people.
+            A mix of web app ideas, AI experiments, and interactive prototypes built to learn and solve useful problems.
           </p>
         </div>
 

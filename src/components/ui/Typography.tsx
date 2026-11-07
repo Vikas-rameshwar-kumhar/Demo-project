@@ -14,7 +14,7 @@ export type TypographyVariant =
   | "caption"
   | "overline";
 
-export interface TypographyProps {
+export interface TypographyProps extends React.HTMLAttributes<HTMLElement> {
   children: React.ReactNode;
   as?: React.ElementType;
   variant?: TypographyVariant;
@@ -61,6 +61,7 @@ export function Typography({
   variant = "body-lg",
   className,
   style,
+  ...props
 }: TypographyProps) {
   const hasWeightOverride = className?.split(/\s+/).some((name) => fontWeightClasses.has(name));
   const variantClass = hasWeightOverride
@@ -73,7 +74,7 @@ export function Typography({
   const Tag = (as ?? defaultTags[variant]) as React.ElementType;
 
   return (
-    <Tag className={cn(finalVariantClass, className)} style={style}>
+    <Tag className={cn(finalVariantClass, className)} style={style} {...props}>
       {children}
     </Tag>
   );

@@ -1,5 +1,6 @@
 import { projects } from "@/const/projects";
 import { ArrowIcon } from "@/components/portfolio/ArrowIcon";
+import { Typography } from "@/components/ui/Typography";
 
 type Project = (typeof projects)[number];
 
@@ -106,12 +107,16 @@ export function ProjectCard({ project }: { project: Project }) {
 
       <div className="flex items-end justify-between pt-4">
         <div>
-          <span className="font-mono text-[10px] tracking-wider text-[#7d8476]">
+          <Typography as="span" variant="overline" className="text-[#7d8476]">
             {project.type}
-          </span>
-          <h3 className="mt-1 text-xl font-medium tracking-tight">
+          </Typography>
+          <Typography
+            as="h3"
+            variant="h4"
+            className="mt-1 text-inherit"
+          >
             {project.name}
-          </h3>
+          </Typography>
         </div>
         <span className="flex items-center gap-3 font-mono text-xs tracking-wider text-[#818779]">
           {project.year}

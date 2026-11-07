@@ -1,6 +1,7 @@
 import { projects } from "@/const/projects";
 import { ArrowIcon } from "@/components/portfolio/ArrowIcon";
 import { ProjectCard } from "@/components/portfolio/ProjectCard";
+import { Typography } from "@/components/ui/Typography";
 
 export function SelectedWork() {
   return (
@@ -11,16 +12,24 @@ export function SelectedWork() {
       <div className="flex w-full max-w-7xl flex-col">
         <div className="mb-8 flex flex-col items-start gap-4 md:flex-row md:items-end md:justify-between md:gap-0">
           <div>
-            <span className="font-mono text-xs tracking-wider text-[#7d8476]">
+            <Typography as="span" variant="overline" className="text-[#7d8476]">
               EXPERIMENTS &amp; PROJECTS
-            </span>
-            <h2 className="mt-3 text-4xl font-medium tracking-tight sm:text-5xl md:text-6xl">
+            </Typography>
+            <Typography
+              as="h2"
+              variant="display-xl"
+              className="mt-3 text-inherit"
+            >
               Selected work<span className="text-[#ea6d48]">.</span>
-            </h2>
+            </Typography>
           </div>
-          <p className="m-0 max-w-xs text-sm leading-relaxed text-[#7a8075] md:ml-6 md:mb-1">
+          <Typography
+            as="p"
+            variant="body-lg"
+            className="m-0 max-w-xs text-[#7a8075] md:ml-6 md:mb-1"
+          >
             A mix of web app ideas, AI experiments, and interactive prototypes built to learn and solve useful problems.
-          </p>
+          </Typography>
         </div>
 
         <div className="grid grid-cols-1 gap-8 md:grid-cols-2 md:gap-x-6 md:gap-y-10">

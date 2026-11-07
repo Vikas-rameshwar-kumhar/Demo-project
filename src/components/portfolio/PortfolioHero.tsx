@@ -1,3 +1,5 @@
+import { Typography } from "@/components/ui/Typography";
+
 export function PortfolioHero() {
   return (
     <section
@@ -13,15 +15,23 @@ export function PortfolioHero() {
           </span>
         </div>
 
-        <h1 className="relative z-10 mt-10 mb-8 max-w-4xl text-5xl font-medium leading-none tracking-tight sm:text-7xl lg:text-8xl">
+        <Typography
+          as="h1"
+          variant="display-2xl"
+          className="relative z-10 mt-10 mb-8 max-w-4xl"
+        >
           Building useful<br />digital things with{" "}
-          <span className="font-serif font-medium tracking-tight text-[#ea6d48]">thought.</span>
-        </h1>
+          <span className="font-serif italic text-[#ea6d48]">thought.</span>
+        </Typography>
 
         <div className="relative z-10 flex flex-wrap items-start justify-between gap-6 md:flex-nowrap md:items-end">
-          <p className="m-0 max-w-sm text-sm leading-relaxed text-[#6c7469] sm:text-base">
+          <Typography
+            as="p"
+            variant="body-lg"
+            className="m-0 max-w-sm text-[#6c7469]"
+          >
             I’m Vikas, a full stack developer creating useful, engaging apps with thoughtful design and solid engineering.
-          </p>
+          </Typography>
           <a
             href="#work"
             className="flex items-center gap-3 font-mono text-xs tracking-widest text-[#657165]"

@@ -1,3 +1,5 @@
+import { Typography } from "@/components/ui/Typography";
+
 const services = [
   { number: "01", title: "Frontend Development", description: "React, Next.js, responsive interfaces", symbol: "✳" },
   { number: "02", title: "Full Stack Web Apps", description: "TypeScript, APIs, end-to-end features", symbol: "↗" },
@@ -13,17 +15,25 @@ export function ServicesSection() {
       <div className="flex w-full max-w-7xl flex-col">
         <div className="mb-10 flex flex-col items-start gap-4 md:flex-row md:items-end md:justify-between md:gap-0">
           <div>
-            <span className="font-mono text-xs tracking-wider text-[#7d8476]">
+            <Typography as="span" variant="overline" className="text-[#7d8476]">
               WHAT I LIKE TO BUILD
-            </span>
-            <h2 className="mt-3 text-3xl font-medium tracking-tight sm:text-4xl md:text-5xl">
+            </Typography>
+            <Typography
+              as="h2"
+              variant="display-xl"
+              className="mt-3 text-inherit"
+            >
               Useful ideas.<br />
               <span className="font-serif italic text-[#7c8a70]">Thoughtful execution.</span>
-            </h2>
+            </Typography>
           </div>
-          <p className="m-0 max-w-xs text-sm leading-relaxed text-[#7a8075] md:ml-6 md:mb-1">
+          <Typography
+            as="p"
+            variant="body-lg"
+            className="m-0 max-w-xs text-[#7a8075] md:ml-6 md:mb-1"
+          >
             From polished interfaces to backend features and small AI experiments, I enjoy making software feel clear and useful.
-          </p>
+          </Typography>
         </div>
 
         <div className="border-t border-[#dcded2]">
@@ -32,15 +42,23 @@ export function ServicesSection() {
               key={service.number}
               className="grid min-h-20 grid-cols-[3rem_1fr_2rem] sm:grid-cols-[4rem_1fr_1fr_2rem] items-center border-b border-[#dcded2] py-4 transition-[padding] duration-200 hover:px-2"
             >
-              <span className="font-mono text-xs tracking-wider text-[#8c9185]">
+              <Typography as="span" variant="overline" className="text-[#8c9185]">
                 {service.number}
-              </span>
-              <h3 className="m-0 text-base font-medium tracking-tight sm:text-lg">
+              </Typography>
+              <Typography
+                as="h3"
+                variant="h4"
+                className="m-0 text-inherit"
+              >
                 {service.title}
-              </h3>
-              <p className="col-start-2 row-start-2 sm:col-start-auto sm:row-start-auto m-0 font-mono text-[10px] tracking-wide text-[#82887b] sm:text-xs">
+              </Typography>
+              <Typography
+                as="p"
+                variant="body-sm"
+                className="col-start-2 row-start-2 sm:col-start-auto sm:row-start-auto m-0 text-[#82887b]"
+              >
                 {service.description}
-              </p>
+              </Typography>
               <span className="col-start-3 row-span-2 sm:col-start-auto sm:row-span-1 text-right text-lg text-[#ea6d48]">
                 {service.symbol}
               </span>

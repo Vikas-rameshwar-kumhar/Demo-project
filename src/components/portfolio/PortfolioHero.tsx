@@ -7,20 +7,20 @@ export function PortfolioHero() {
       <div className="relative flex w-full max-w-7xl flex-col">
         <div className="flex items-center gap-3 font-mono text-xs tracking-wider text-[#697367]">
           <span className="inline-block size-2 rounded-full bg-[#84a776] shadow-[0_0_0_4px_#84a77620]" />
-          AVAILABLE FOR SELECT PROJECTS
+          FULL STACK DEVELOPER
           <span className="ml-auto hidden text-xs sm:inline">
-            BASED IN BROOKLYN, NY
+            JAVASCRIPT · TYPESCRIPT · PYTHON
           </span>
         </div>
 
         <h1 className="relative z-10 mt-10 mb-8 max-w-4xl text-5xl font-medium leading-none tracking-tight sm:text-7xl lg:text-8xl">
-          Making digital<br />feel a little more{" "}
-          <span className="font-serif font-medium tracking-tight text-[#ea6d48]">human.</span>
+          Building useful<br />digital things with{" "}
+          <span className="font-serif font-medium tracking-tight text-[#ea6d48]">thought.</span>
         </h1>
 
         <div className="relative z-10 flex flex-wrap items-start justify-between gap-6 md:flex-nowrap md:items-end">
           <p className="m-0 max-w-sm text-sm leading-relaxed text-[#6c7469] sm:text-base">
-            I’m Vikas — an full stack developer partnering with good people to build thoughtful brands and digital things.
+            I’m Vikas, a full stack developer creating useful, engaging apps with thoughtful design and solid engineering.
           </p>
           <a
             href="#work"
@@ -30,9 +30,9 @@ export function PortfolioHero() {
           </a>
           <div
             className="ml-auto flex size-20 rotate-12 flex-col items-center justify-center gap-0.5 rounded-full border border-[#c8cabc] text-center font-mono text-[9px] leading-tight tracking-wider md:ml-0 md:size-24"
-            aria-label="Design with intention"
+            aria-label="Creative code, thoughtful products"
           >
-            <span>DESIGN WITH<br />INTENTION</span>
+            <span>CODE WITH<br />CURIOSITY</span>
             <span className="text-lg leading-none text-[#ea6d48]">✳</span>
           </div>
         </div>

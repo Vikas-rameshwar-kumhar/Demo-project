@@ -6,7 +6,7 @@ import "./globals.css";
 export const metadata: Metadata = {
   title: "Vikas Kumhar — Full Stack Developer",
   description:
-    "Full stack developer creating thoughtful digital experiences for people and the planet.",
+    "Vikas Kumhar is a full stack developer building useful web apps with JavaScript, TypeScript, Python, React, and Next.js.",
 };
 
 export default function RootLayout({

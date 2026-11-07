@@ -15,10 +15,10 @@ export function ContactSection() {
           <span className="font-serif italic text-[#e9a17f]">matter.</span>
         </h2>
         <a
-          href="mailto:hello@alexmorgan.design"
+          href="mailto:connect@vikaskumhar.in"
           className="inline-flex items-center gap-4 border-b border-[#6e8272] pb-2 text-sm text-inherit transition-colors hover:text-[#e9a17f] sm:text-base"
         >
-          hello@alexmorgan.design{" "}
+          connect@vikaskumhar.in{" "}
           <span className="grid size-8 place-items-center rounded-full border border-[#778b79]">
             <ArrowIcon diagonal className="size-4" />
           </span>

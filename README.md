@@ -1,4 +1,4 @@
-# Alex Morgan — Portfolio
+# Vikas Kumhar — Portfolio
 
 A modern, responsive portfolio starter built with Next.js, React, TypeScript, and Tailwind CSS v4. The design uses a warm paper-and-forest palette with editorial typography and CSS-built project artwork.
 

@@ -4,9 +4,9 @@ import { Header } from "@/components/Header";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "Alex Morgan — Independent Designer & Developer",
+  title: "Vikas Kumhar — Full Stack Developer",
   description:
-    "Independent designer and developer creating thoughtful digital experiences for people and the planet.",
+    "Full stack developer creating thoughtful digital experiences for people and the planet.",
 };
 
 export default function RootLayout({

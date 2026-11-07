@@ -11,7 +11,7 @@ export function Footer() {
         </Link>
         <Typography as="span" variant="body-sm" className="text-[#c0c7bb]">18 Willow Lane · Brooklyn, NY</Typography>
         <Link href="mailto:hello@covecoffee.example" className="text-sm text-[#f6f2e9] transition-colors hover:text-[#e39a73]">Say hello ↗</Link>
-        <Typography as="span" variant="caption" className="text-[#c0c7bb]">© 2025 Cove Coffee</Typography>
+        <Typography as="span" variant="caption" className="text-[#c0c7bb]">© {new Date().getFullYear()} Cove Coffee</Typography>
       </div>
     </footer>
   );

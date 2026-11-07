@@ -7,9 +7,6 @@ A modern, responsive portfolio starter built with Next.js, React, TypeScript, an
 ```bash
 npm install
 npm run dev
-
-pnpm install
-pnpm dev
 ```
 
 Open [http://localhost:3000](http://localhost:3000) to view the site.

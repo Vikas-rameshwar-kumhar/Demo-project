@@ -7,7 +7,9 @@ A modern, responsive portfolio starter built with Next.js, React, TypeScript, an
 ```bash
 npm install
 npm run dev
+```
 
+```bash
 pnpm install
 pnpm dev
 ```
